@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="css/public.css" />
+		<link rel="stylesheet" href="css/canvas.css">
+		<script src="js/jquery-3.2.0.min.js"></script>
+		<script src="js/canvas.js"></script>
+	</head>
+	<body>
+		<div class="box">
+			<div class="xp"></div>
+			<div class="copy"></div>
+			<canvas id="" width="868" height="400">
+				您的浏览器不支持canvas
+			</canvas>
+			<ul class="draw">
+				<li attr="line">线条</li>
+				<li attr="rect">矩形</li>
+				<li attr="arc">圆</li>
+				<li attr="bian">多边形</li>
+				<li attr="jiao">多角形</li>
+				<li attr="pen" class="first">钢笔</li>
+			</ul>
+			<input type="color" name="color" id="" value="" class="color"/>
+			<ul class="lei">
+				<li attr="fill">填充</li>
+				<li attr="stroke" class="first">描边</li>
+			</ul>
+			<input type="number" class="lineWidth" placeholder="线宽“1”"/>
+			<ul class="caozuo">
+				<li attr="none">新建</li>
+				<li attr="save">保存</li>
+				<li attr="back">撤销</li>
+				<li attr="begin">重置</li>
+			</ul>
+			<div class="xpbox">
+				<div class="xpbtn">橡皮</div>
+				<input type="number" placeholder="大小“5”"/>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,123 @@
+body{
+			padding: 0;margin:0;
+			background: url(../images/timg.jpg) no-repeat center;
+			background-size: 100% 100%;
+		}
+		.box{
+			width:868px;height: 400px;
+			position: fixed;top:0;left:0;right:0;bottom:0;
+			margin:auto;
+		}
+		.draw{
+			width:50px;height:auto;
+			position: absolute;left:-60px;top:50px;;
+		}
+		.draw li{
+			width:100%;height: 20px;;
+			margin-top:5px;
+			text-align: center;
+			line-height: 20px;;
+			cursor: pointer;
+			border-radius: 5px;
+			background: #333;
+			color:#fff;
+		}
+		.draw .first{
+			background:#fff;
+			color:#333;
+		}
+		.lei{
+			width:50px;
+			height:auto;
+			position: absolute;
+			left:-60px;
+			top:250px;;
+		}
+		.lei li{
+			width:100%;
+			height: 20px;;
+			margin-top:5px;
+			background: #333;
+			text-align: center;
+			line-height: 20px;;
+			cursor: pointer;
+			border-radius: 5px;
+			color: #fff;
+		}
+		.lei .first{
+			background:#fff;
+			color:#333;
+		}
+		.color{
+			width:50px;
+			height:20px;
+			position: absolute;
+			left:-60px;
+			top:220px;;
+		}
+		.lineWidth{
+			width:50px;
+			height:20px;
+			position: absolute;
+			left:-60px;
+			top:320px;;
+			background:#fff;
+			border:none;
+			border-radius: 5px;
+			text-align: center;
+		}
+		.back{
+			width:50px;
+			height:20px;
+			position: absolute;
+			left:-60px;
+			top:360px;;
+			background:#fff;
+			border:none;
+			border-radius: 5px;
+			text-align: center;
+		}
+		.caozuo{
+			width:50px;height:auto;
+			position: absolute;right:-70px;top:50px;;
+		}
+		.caozuo li{
+			width:100%;height: 20px;;
+			margin-top:5px;
+			text-align: center;
+			line-height: 20px;;
+			cursor: pointer;
+			border-radius: 5px;
+			background: #333;
+			color:#fff;
+		}
+		.caozuo .first{
+			background:#fff;
+			color:#333;
+		}
+		.xpbox{
+			width:50px;height:auto;
+			position: absolute;right:-70px;top:170px;
+		}
+		.xpbtn{
+			width:100%;height: 20px;;
+			margin-bottom:5px;
+			text-align: center;
+			line-height: 20px;;
+			cursor: pointer;
+			border-radius: 5px;
+			background: #333;
+			color:#fff;
+		}
+		.xpbox input{
+			width:50px;
+			height:20px;
+			background:#fff;
+			border:none;
+			border-radius: 5px;
+			text-align: center;
+		}
+		.xpbox .first{
+			background:#fff;
+			color:#333;
+		}
